@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+
+.article-container{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr)) !important;
+    gap: 2rem !important;
+}
+
+.article-image{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.article-image img{
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.article-card{
+    background: white !important;
+    border-radius: 20px !important;
+    transition: 0.3s !important;
+}
+
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2) !important;
+    cursor: pointer !important;
+}
+
+.article-content{
+    padding: 2rem !important;
+}
+
+.article-content .card-category{
+    font-size: 0.875rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    font-weight: 600 !important; 
+    color: #6b83a7 !important;
+    display: block !important;
+    text-decoration: none !important;
+}
+
+.article-content .card-title{
+    color: #22447b !important;
+}
+
+.article-content .caard-excerpt{
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    color: #6b83a7 !important;
+    margin: 0 !important;
+}
+
+@media screen and (min-width: 768px){
+    .site-container{
+        max-width: 608px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+    }
+    
+}
+/*
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-7616a3b8 elementor-section-full_width elementor-section-height-min-height elementor-section-items-stretch elementor-reverse-mobile elementor-reverse-tablet elementor-section-height-default"
+            data-id="7616a3b8" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="xop-banner"></div>
+                <div class="site-container">
+                    <div class="article-container">
+                        <article class="article-card">
+                            <figure class="article-image">
+                                <img src="https://camo.githubusercontent.com/abacdc9d59db8a500bfa20a01cdb3d93d5cc74b55ab308614904fc3a9c583520/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313238302f312a63473655317173745944696a683962504c3432652d512e6a706567">
+                            </figure>
+                            <div class="article-content">
+                                <a href="#" class="card-category">Mahcine</a>
+                                <h3 class="card-title">machine is good fo humans</h3>
+                                <p class="card-excerpt">machine is for humans and good to do any day test more</p>
+                            </div>
+                        </article>
+            
+                        <article class="article-card">
+                            <figure class="article-image">
+                                <img src="https://cdn.dribbble.com/users/1529400/screenshots/11076441/media/431b150e49e1126e2496a417c920e5a0.png?compress=1&resize=400x300&vertical=top">
+                            </figure>
+                            <div class="article-content">
+                                <a href="#" class="card-category">websites</a>
+                                <h3 class="card-title">dfdf dfdfdfdf dfdfdf</h3>
+                                <p class="card-excerpt">a dsfadkjfdkjshfdjas hfdpi ghfpui fdgapui g ghafiihdasip hfdaus hfda h</p>
+                            </div>
+                        </article>
+            
+                        <article class="article-card">
+                            <figure class="article-image">
+                                <img src="https://miro.medium.com/max/1400/1*U-FxIADBFaC4c1StbbCSWA.jpeg">
+                            </figure>
+                            <div class="article-content">
+                                <a href="#" class="card-category">cloud</a>
+                                <h3 class="card-title">dfdfdd dsfd afdas sa </h3>
+                                <p class="card-excerpt">ad f dashfi dh dgasfgd fbvdaisb gfdasb gfid gdgoydggf</p>
+                            </div>
+                        </article>
+                        <article class="article-card">
+                            <figure class="article-image">
+                                <img src="https://miro.medium.com/max/1400/1*U-FxIADBFaC4c1StbbCSWA.jpeg">
+                            </figure>
+                            <div class="article-content">
+                                <a href="#" class="card-category">cloud</a>
+                                <h3 class="card-title">dfdfdd dsfd afdas sa </h3>
+                                <p class="card-excerpt">ad f dashfi dh dgasfgd fbvdaisb gfdasb gfid gdgoydggf</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+*/
